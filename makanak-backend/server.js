@@ -8,6 +8,10 @@ if (!process.env.MONGO_URI || !process.env.JWT_SECRET) {
   process.exit(1);  // إيقاف التطبيق إذا كانت المتغيرات البيئية مفقودة
 }
 
+
+
+// TEST FROM TERMINAL 
+
 connectDB(); // الاتصال بقاعدة البيانات
 
 const PORT = process.env.PORT || 5000; // تحديد المنفذ
